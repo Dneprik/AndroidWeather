@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dip"
+    android:paddingLeft="10dip"
+    android:paddingBottom="10dip"
+    android:paddingRight="10dip"
+    android:gravity="center"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:text="Dnipropetrovsk"
+            android:id="@+id/city"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="30dip"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="&gt;"
+            android:id="@+id/nextPage"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="50dip"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_row="1"
+            android:text="2"
+            android:id="@+id/todayWeather"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="75dip"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/tableRow1">
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Show Weather"
+            android:id="@+id/btnSelectCity"
+            android:width="70dip"
+            android:layout_column="1" />
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:id="@+id/cityField"
+            android:background="@android:color/white"
+            android:layout_column="1"
+            android:textColor="@android:color/black" />
+    </TableRow>
+</TableLayout>
